@@ -20,7 +20,7 @@ cd /zfs/musc3/singularity_images
 Use the following command to open an R command prompt:
 
 ```
-singularity shell -B /zfs/musc3:/mnt --pwd /mnt biocm-seurat_latest.sif
+singularity shell -B /zfs/musc3:/mnt --pwd /mnt biocm-python_latest.sif
 ```
 Note the options used here:
 - `-B /zfs/musc3:/mnt`: this command creates a link between the source directory (here, `/zfs/musc3`) and the destination directory inside the 
